@@ -13,7 +13,7 @@ import (
 
 func main() {
 
-	cacheController := lrucontroller.NewLRUCacheController(5)
+	cacheController := lrucontroller.NewLRUCacheController(1024)
 
 	app := fiber.New()
 
